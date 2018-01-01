@@ -1,0 +1,301 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  color: #4D4D4D;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #EFEFEF;
+  color: #4D4D4D;
+
+}
+
+header {
+  background-color: #2B2B2B;
+  height: 160px;
+}
+
+h1 {
+  clear: both;
+  color: #FFF;
+  display: inline-block;
+  float: right;
+  font-size: 48px;
+  margin: 40px 30px 0 0;
+}
+
+h2 {
+  margin: 20px 0 20px 0;
+  font-size: 48px;
+}
+
+h5 {
+  font-size: 15px;
+  margin-bottom: 2px;
+}
+
+ul {
+  display: inline-block;
+}
+
+li {
+  display: inline-block;
+  margin-right: 40px;
+  color: #8F8F8F;
+}
+
+section {
+  padding-left: 2%;
+}
+
+p {
+  margin: 1px;
+}
+
+img {
+  height: 16px;
+  width: 16px;
+  margin-bottom: -2px;
+  margin-right: 7px;
+}
+
+.top-right-button {
+  float: right;
+  margin: 10px 30px 0 0;
+  color: #59B8F9;
+  background-color: #2B2B2B;
+  font-size: 12px;
+  border: none;
+}
+
+.header-area {
+  position: relative;
+  top: 82px;
+}
+
+.down-arrow {
+  height: 10px;
+  width: 10px;
+  margin-left: 5px;
+  margin-bottom: -1px;
+}
+
+.shares {
+  color: #FFF;
+}
+
+.nav-icons {
+  display: inline-block;
+}
+
+.thumbs-down {
+  height: 45px;
+  width: 45px;
+  margin-bottom: -7px;
+  margin-left: 5px;
+}
+
+.person-circle {
+  margin-bottom: -3px;
+}
+
+.cards {
+  background-color: #FFF;
+  width: 23%;
+  min-width: 220px;
+  margin: 0 1% 2% 0;
+  min-height: 400px;
+  box-shadow: 1px 1px 10px grey;
+  display: inline-block;
+  float: left;
+}
+
+.top-section {
+  background-image: url('images/office3.jpg');
+  background-size: cover;
+  height: 125px;
+  display: inline-block;
+  width: 100%;
+}
+
+.card2 .top-section {
+  background-image: url('images/office4.jpg');
+}
+
+.card3 .top-section {
+  background-image: url('images/staples.png');
+}
+
+.card4 .top-section {
+  background-image: url('images/the-bobs.jpg');
+}
+
+.bottom-section {
+  width: 100%;
+  padding: 0 15px;
+}
+
+.logo-button {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  background-color: #FFF;
+  margin: 10px;
+  background-image: url('images/arrow.svg');
+  background-size: contain;
+  background-position: center;
+  border: none;
+}
+
+.gray-box  {
+  background-color: #EFEFEF;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  resize: none;
+  border: none;
+  font-size: 12px;
+  padding: 8px;
+  color: #9A9A9A;
+  margin: 20px 0;
+}
+
+.time {
+  font-size: 10px;
+  color: #9A9A9A;
+  margin-bottom: 10px;
+}
+
+.small-bold-text {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.playlist-name {
+  margin: 5px 0 20px 0;
+}
+
+.views {
+  display: inline-block;
+  float: right;
+  color: #FFF;
+  margin: 10px 10px 2px 10px;
+}
+
+.num-views {
+  display: inline-block;
+  clear: both;
+  color: #FFF;
+  margin: 0 14px;
+  float: right;
+  font-size: 24px;
+}
+
+.bottom-num {
+  color: #59B8F9;
+  font-size: 24px;
+  margin: 5px 0;
+  font-weight: lighter;
+}
+
+@media only screen and (max-width: 940px) {
+    
+  h1 {
+    float: none;
+    margin: 10px 0 0 2%;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  .cards {
+    width: 32%;
+  }
+
+  .header-area {
+    top: 30px;
+  }
+
+  .top-right-button {
+    margin: 10px;
+  }
+
+  ul {
+    padding-left: 2%;
+  }
+}
+
+
+@media only screen and (max-width: 695px) {
+  
+  h1 {
+    float: none;
+    margin: 10px 0 0px 2%;
+  }
+
+  ul {
+    margin-left: 10px;
+    padding-left: 0;
+  }
+
+  li {
+    display: inline-block;
+    margin-right: 25px;
+  }
+
+  .cards {
+    width: 48%;
+  }
+
+  .header-area {
+    top: 30px;
+  }
+
+}
+
+@media only screen and (max-width: 460px) {
+  
+  header {
+    height: 250px;
+    padding-left: 4%;
+  }
+
+  section {
+    padding-left: 6%;
+  }
+
+  h1 {
+    position: absolute;
+    left: 4%;
+  }
+
+  h2 {
+    margin: 15px 0 15px 0;
+    font-size: 32px;
+  }
+
+  li {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .top-right-button {
+    position: relative;
+    float: none;
+    top: 200px;
+    margin: 4px;
+  }
+
+  .header-area {
+    top: 55px;
+  }
+
+  .cards {
+    width: 95%;
+  }
+}
